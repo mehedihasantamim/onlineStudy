@@ -12,11 +12,11 @@
     -webkit-box-sizing: border-box;
 }
 :active,
-:hover,
+/* :hover, */
 :focus{
     outline: 0 !important;
     outline-offset: 0;
-    /* box-shadow: unset !important; */
+    box-shadow: unset !important;
 }
 /* a,
 p{
@@ -243,7 +243,7 @@ say section end
 article section start
 -------------------- */
 .article{
-    padding-bottom: 150px !important;
+
 }
 .articleHover{
     transition: all .3s ease;
@@ -264,6 +264,7 @@ footer section start
 -------------------- */
 footer{
     background-color: #060e1f;
+    margin-top: 120px;
 }
 .bestPopular{
     border-radius: 20px;
