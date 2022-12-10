@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Study</title>
+    <link rel="stylesheet" href="inc/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inc/css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+          <style>
+            .banner{
+            background-color: #fbfbfb;
+            }
+            .homeHover:hover{
+                text-decoration: underline;
+                color: #f50057;
+            }
+            .errorImg{
+                background-image: url(inc/image/error.png) !important;
+                background-position: center center;
+                background-size: cover;
+            }
+            .playIcon{
+                top: 35%;
+                left: 40%;
+                color: white;
+                border: 5px solid white;
+                border-radius: 50px;
+                height: 80px;
+                width: 80px;
+                line-height: 75px;
+                text-align: center;
+                padding-left: 5px;
+                transition: all .3s ease;
+            }
+            .playIcon:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+          </style>      
+</head>
+<body>
+       <!-- header section -->
+       <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light px-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="inc/image/logo.png" alt="logo">
+                  </a>
+                  <a href="index.html" class="navbar-brand text-dark fs-1 logoText me-auto">Online Study</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list navIcon"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center bg-white">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog Posts</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                          <li><a class="dropdown-item" href="#">404 Page</a></li>
+                          <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item ps-3">
+                        <a class="btn bg-main rounded-pill text-light px-4 py-2 btnHover" type="submit">Search</a>
+                      </li>
+                      <li class="nav-item ps-3 d-flex align-items-center position-relative posMoon mx-auto">
+                        <i class="bi bi-moon fs-3 text-main"></i>
+                            <ul>
+                                <li class="nav-item ps-3 d-flex align-items-center position-absolute posSun">
+                                    <i class="bi bi-brightness-high fs-3"></i>
+                                </li>
+                            </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section class="banner mt-5 py-5">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h6 class="fs-4 fw-bold mb-3 pt-3">About Us</h6>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="homeHover fs-5 text-main" href="index.html">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <p class="fs-5 text-muted"><i class="bi bi-chevron-double-right"></i> About Page</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section-->
+    <section class="about py-5">
+        <div class="container py-5">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <img src="inc/image/about.jpg" alt="about-img" class="img-fluid rounded-20">
+
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6 ps-4">
+               <h6 class=" fs-4"><span class="display-6 text-main">|</span><span class="ps-2">ONLINE STUDY</span></h6>
+               <h4 class="display-6"><span class="fw-bold">Welcome to our</span> Website</h4>
+               <p class="pe-5 py-3 text-muted">Aenean pulvinar pharetra pellentesque. Cras dignissim, sapien ac tempus bibendum,
+                 eros massa fermentum massa, 
+                 in eleifend ipsum quam vel magna.Maecenas viverra, leo eget semper ultrices.</p>
+                 <a class="btn btn-stl bg-main rounded-pill text-light px-5 py-3 btnHover fs-5" href="#">Get Started <i class="bi bi-chevron-double-right rounded-circle px-2 py-1 forArrow"></i></a>
+            </div>
+          </div>
+        </div>
+    </section>
+     <!--text section start-->
+     <section>
+        <div class="container-fluid bg-light py-5 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <p class="px-3"><span class="text-main">01.</span><span class="ps-3 text-muted">OUR VALUES</span></p>
+                        <h3 class="px-3">Nam vehicula neque id purus malesuada aliquam</h3>
+                        <p class="pt-3 px-3 text-muted">Donec interdum magna ac libero mattis porta.
+                             Nulla in mauris aliquam convallis. Mauris vitae ante nec augue.</p>
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <p class="px-3"><span class="text-main">02.</span><span class="ps-3 text-muted">WHO WE ARE</span></p>
+                        <h3 class="px-3">Nam vehicula neque id purus malesuada aliquam</h3>
+                        <p class="pt-3 px-3 text-muted">Donec interdum magna ac libero mattis porta.
+                             Nulla in mauris aliquam convallis. Mauris vitae ante nec augue.</p>
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <p class="px-3"><span class="text-main ">03.</span><span class="ps-3 text-muted">WHAT WE DO</span></p>
+                        <h3 class="px-3">Nam vehicula neque id purus malesuada aliquam</h3>
+                        <p class="pt-3 px-3 text-muted">Donec interdum magna ac libero mattis porta.
+                             Nulla in mauris aliquam convallis. Mauris vitae ante nec augue.</p>
+
+                    </div> 
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--text section end-->
+    <!--cartoon section -->
+    <section>
+        <div class="container-fluid">
+            <div class="errorImg">
+                <div class="container">
+                    <div class="row py-5 text-center my-5">
+                        <div class="col-lg-3 col-sm-12 col-md-6">
+                            <img src="inc/image/stats1.png" alt="state-img" class="img-fluid">
+                            <p class="display-5 pt-3 fw-bold text-main">5,100</p>
+                            <p class="h5 fw-bold">TOTAL COURSES</p>
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-6">
+                            <img src="inc/image/stats2.png" alt="state-img" class="img-fluid">
+                            <p class="display-5 pt-3 fw-bold text-main">971</p>
+                            <p class="h5 fw-bold">EXPERT TEACHERS</p>
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-6">
+                            <img src="inc/image/stats3.png" alt="state-img" class="img-fluid">
+                            <p class="display-5 pt-3 fw-bold text-main">7,600</p>
+                            <p class="h5 fw-bold">HAPPY STUDENTS </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-6">
+                            <img src="inc/image/stats4.png" alt="state-img" class="img-fluid">
+                            <p class="display-5 pt-3 fw-bold text-main">367</p>
+                            <p class="h5 fw-bold">AWARDS WON</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--cartoon section end-->
+     <!--play video section start-->
+     <section class="py-5">
+        <div class="container py-5">
+          <div class="row d-flex align-items-center">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h1 class="fw-bold">YOU CAN WATCH NOW OUR ONLINE COURSES!</h1>
+                      <p class="py-3 text-muted">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, consequatur voluptatem ad.</p>
+                        <a class="btn btn-stl bg-main rounded-pill text-light px-5 py-3 btnHover fs-5" href="#">Get Started <i class="bi bi-chevron-double-right rounded-circle px-2 py-1 forArrow"></i></a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                  <img src="inc/image/video.jpg" alt="vedio-img" class="img-fluid rounded-20">
+                  <i class="bi bi-play position-absolute playIcon display-4"  data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                  <!-- modal start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered ">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/t0Q2otsqC4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                  <!-- modal end -->
+              </div>
+          </div>
+        </div>
+  </section>
+  <!--play vedio section end-->
+<!-- say section -->
+<section class="say py-5">
+    <div class="container py-5">
+      <div class="row pb-4">
+        <div class="col-12 text-center">
+          <h2 class="display-6 fw-bold">WHAT OUR PEOPLE SAY</h2>
+        </div>
+      </div>
+      <div class="row position-relative">
+        <i class="bi bi-quote position-absolute sayIcon"></i>
+        <div class="col-12 text-center">
+          <!-- slider start -->
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="btn rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="btn rounded-pill" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <!-- <ol class="carousel-indicators">
+                    <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+                    <li class="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                    <li class="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                  </ol> -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-fluid rounded-circle" src="inc/image/testi2.jpg" alt="profile image">
+                      <h6 class="fs-3 fw-bold my-0 pt-3 pb-1">JENNA JOHN</h6>
+                      <span class="text-main">Washington</span>
+                      <p class="text-muted px-5 fs-5 py-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid rounded-circle" src="inc/image/testi1.jpg" alt="profile image">
+                      <h6 class="fs-3 fw-bold my-0 pt-3 pb-1">THEO HALL</h6>
+                      <span class="text-main">Washington</span>
+                      <p class="text-muted px-5 fs-5 py-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid rounded-circle" src="inc/image/testi3.jpg" alt="profile image">
+                      <h6 class="fs-3 fw-bold my-0 pt-3 pb-1">LINDA CARINI</h6>
+                      <span class="text-main">Washington</span>
+                      <p class="text-muted px-5 fs-5 py-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  </div>
+                </div>
+              </div>
+          <!-- slider end -->
+          
+        </div>
+      </div>
+    </div>
+  </section>
+     <!-- expert section -->
+     <section class="py-5">
+        <div class="container py-5">
+          <div class="row text-center pb-3">
+            <div class="col-12">
+              <h2 class="display-6 fw-bold">OUR EXPERT TEACHERS</h2>
+              <p class="px-5 text-muted">Cum doctus civibus efficiantur in imperdiet deterruisset. Cras efficitur, metus gravida suscipit cursus, dui diam pre lorem id lectus.</p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+              <img class="img-fluid expertImage" src="inc/image/team1.jpg" alt="expert teacher image">
+              <h6 class="fs-4 fw-bold my-0 pt-3 textHover cursor-pointer">CHRIS TINA</h6>
+              <p class="text-muted my-0">Web Designer</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+              <img class="img-fluid expertImage" src="inc/image/team2.jpg" alt="expert teacher image">
+              <h6 class="fs-4 fw-bold my-0 pt-3 textHover cursor-pointer">CHRIS TINA</h6>
+              <p class="text-muted my-0">Web Designer</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+              <img class="img-fluid expertImage" src="inc/image/team3.jpg" alt="expert teacher image">
+              <h6 class="fs-4 fw-bold my-0 pt-3 textHover cursor-pointer">CHRIS TINA</h6>
+              <p class="text-muted my-0">Web Designer</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+              <img class="img-fluid expertImage" src="inc/image/team4.jpg" alt="expert teacher image">
+              <h6 class="fs-4 fw-bold my-0 pt-3 textHover cursor-pointer">CHRIS TINA</h6>
+              <p class="text-muted my-0">Web Designer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- footer section -->
+    <footer class="pb-5">
+      <div class="container pb-5">
+        <div class="row position-relative">
+          <div class="col-12">
+            <div class="bestPopular text-center w-75 mx-auto p-5 bg-white">
+              <h3 class="fs-3 pb-3 fw-bold px-5">DO YOU WANT TO JOIN OUR BEST POPULAR ONLINE COURSES</h3>
+              <a class="btn btn-stl bg-main rounded-pill text-light px-3 py-2 btnHover fs-6" href="#">Get Started <i class="bi bi-chevron-double-right rounded-circle p-1 forArrow"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-foot bottomFooter">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h6 class="fs-5 pb-2 mb-3">ABOUT</h6>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+            </div>
+              <div class="col-lg-2 col-md-6 col-sm-12">
+                <h6 class="fs-5 pb-2 mb-3">ARCHIVES</h6>
+                <ul class="footer2nd">
+                  <li class="pb-2"><a class="text-foot" href="#"><i class="bi bi-chevron-double-right pe-2"></i>April 2022</a></li>
+                  <li class="pb-2"><a class="text-foot" href="#"><i class="bi bi-chevron-double-right pe-2"></i>April 2022</a></li>
+                  <li class=""><a class="text-foot" href="#"><i class="bi bi-chevron-double-right pe-2"></i>April 2022</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h6 class="fs-5 pb-2 mb-3">CATEGORIES</h6>
+              <ul class="footer2nd">
+                <li class="pb-2"><a class="text-foot" href="#"><i class="bi bi-chevron-double-right pe-2"></i>Education</a></li>
+                <li class=""><a class="text-foot" href="#"><i class="bi bi-chevron-double-right pe-2"></i>Uncategorized</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h6 class="fs-5 pb-2 mb-3">CONTACT</h6>
+            <ul class="footer2nd">
+              <li class="pb-3"><a class="text-foot" href="mailto:nfo@example.com.com"><i class="bi bi-envelope pe-2"></i>nfo@example.com</a></li>
+              <li class="pb-3"><a class="text-foot" href="tel:+44-000-888-999"><i class="bi bi-telephone-fill pe-2"></i>+44-000-888-999</a></li>
+              <li class=""><i class="bi bi-geo-alt-fill pe-2"></i> London, 235 Terry, 10001</li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </footer>
+    <script src="inc/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

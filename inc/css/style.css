@@ -61,6 +61,9 @@ ol{
 .cursor-pointer{
     cursor: pointer;
 }
+.rounded-20{
+    border-radius: 20px;
+}
 /* --------------------
 header section start
 -------------------- */
