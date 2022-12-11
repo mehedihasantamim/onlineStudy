@@ -90,6 +90,9 @@ header{
 .nav-link:hover{
     color: #f50057!important;
 }
+.dropdown-menu .active{
+    background-color: transparent !important;
+}
 .logoText{
     transition: all .5s ease;
 }
